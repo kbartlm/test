@@ -5,4 +5,4 @@ RUN sudo apt-get update -y && \
     sudo pip3 install -U pip && \
     sudo pip3 install virtualenv
     
-RUN sudo apt-get install openjdk-7-jre
+RUN sudo apt-get install -y openjdk-7-jre
