@@ -16,3 +16,5 @@ ENV JAVA_HOME /opt/jdk1.7.0_55
 RUN echo "export JAVA_HOME=$JAVA_HOME" >> /home/user/.bashrc
 ENV PATH $JAVA_HOME/bin:$PATH
 RUN echo "export PATH=$PATH" >> /home/user/.bashrc
+
+sudo apt-get install g++ python3-dev
