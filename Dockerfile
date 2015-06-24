@@ -17,4 +17,4 @@ RUN echo "export JAVA_HOME=$JAVA_HOME" >> /home/user/.bashrc
 ENV PATH $JAVA_HOME/bin:$PATH
 RUN echo "export PATH=$PATH" >> /home/user/.bashrc
 
-sudo apt-get install g++ python3-dev
+sudo apt-get install -y g++ python3-dev
