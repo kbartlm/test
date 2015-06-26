@@ -8,8 +8,3 @@ RUN sudo apt-get update -y && \
 RUN sudo apt-get install -y default-jdk
 
 
-RUN sudo apt-get install -y postgresql postgresql-contrib
-
-EXPOSE 5432
-
-
